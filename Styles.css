@@ -1,0 +1,305 @@
+body {
+    margin: 0px;
+
+}
+
+.Nav-Bar-Wrapper {
+    height: 100px;
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+
+}
+
+.Nav-Bar-Wrapper > .Left-Column > .Icon {
+    font-size: 1.6em;
+    margin-left: 50px;
+}
+
+.Nav-Bar-Wrapper > .Left-Column > .Phone {
+    margin-left: 22px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 1.2em;
+}
+
+.First-Nav-Bar .Right-Column > .Locator {
+    font-size: 1.2em;
+    margin-left: 90px;
+}
+
+.First-Nav-Bar > .Right-Column > .Address > .Place {
+    margin-left: 45px;
+}
+
+.Nav-Bar-Wrapper > .Right-Column {
+    font-family:  "Roboto Slab", serif;;
+}
+
+.Nav-Bar-Wrapper > .Left-Column > .Work-Time {
+    font-family: "Roboto Slab", serif;
+}
+
+.Nav-Bar-Wrapper > .Middle-Column > .Nav_Link {
+    font-family: "Roboto Slab", serif;
+}
+
+.Nav-Bar-Wrapper > .Middle-Column > .Links_Wrappers {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto Slab", serif;
+}
+.First-Nav-Bar {
+    height: 60px;
+    background-color: rgb(253, 253, 6);
+    color: rgb(23, 23, 232);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    font-family: "Roboto Slab", serif;;
+}
+
+
+
+.Nav-Bar-Wrapper > .Logo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Nav-Bar-Wrapper > .Logo > .Name-Of-Sch {
+    margin-top: 60px;
+    font-family: "Roboto Slab", serif;
+    font-size: 2.3em;
+    color: rgb(219, 180, 40);
+}
+.Last-Nav-Bar {
+    height: 50px;
+    background-color: rgb(22, 13, 203);
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Last-Nav-Bar > .Right-Column {
+    width: 150px;
+    text-align: center;
+}
+.Last-Nav-Bar > .Middle-Column {
+    width: 150px;
+    text-align: center;
+}
+.Last-Nav-Bar > .Left-Column {
+    width: 150px;
+    text-align: center;
+}
+.Last-Nav-Bar a {
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.3em;
+}
+.Last-Nav-Bar a:hover {
+    color: goldenrod;
+    letter-spacing: 2px;
+}
+
+.Nav-Bar-Wrapper > .Middle-Column > .Links_Wrappers > .Nav_Link a {
+    margin-right: 50px;
+    font-family: "Roboto Slab", serif;
+    color: rgb(18, 18, 237);
+    font-size: 1.3em;
+}
+.Nav-Bar-Wrapper > .Logo > .Image img {
+    width: 150px;
+    height: 70%;
+    margin-top: 40px;
+}
+
+.Last-Nav-Bar > .Right-Column {
+    margin-right: 180px;
+}
+
+.Last-Nav-Bar > .Left-Column {
+    margin-left: 180px;
+}
+
+.Main-Field {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Main-Field > .Background {
+    background-image: url(TUPAC\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 150vh;
+}
+
+.Down-Bar {
+    height: 200px;
+    background-color: rgb(143, 204, 204);
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3em;
+    font-family: "Roboto Slab", serif;
+}
+
+.Down-Bar > .Left-Column > .Head {
+    color: rgb(35, 15, 194);
+    margin-bottom: 5px;
+}
+.Down-Bar > .Middle-Column > .Head{
+    color: rgb(35, 15, 194);
+    margin-left: 19px;
+}
+.Down-Bar > .Right-Column > .Head{
+    color: rgb(35, 15, 194);
+    margin-right: 50px;
+}
+
+
+.Map-Container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    width: 90%;
+    height: 500px;
+}
+
+.Map-Container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 40px;
+}
+
+.Down-Bar > .Left-Column > .Para {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, sans-serif;
+    color: rgb(35, 15, 194);
+}
+
+
+.Sec-Down-Bar {
+    height: 40px;
+    background-color: rgb(47, 43, 43);
+    color: rgb(227, 227, 200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 100px;
+}
+.Sec-Down-Bar > .Copyright {
+    font-family: "Roboto Slab", serif;
+}
+
+.Sec-Down-Bar > .FB-And-Whatsapp {
+    color: rgb(227, 227, 200);
+    font-size: 1.2em;
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.Sec-Down-Bar > .FB-And-Whatsapp > .FB-Icon i {
+    margin-right: 55px;
+    color: rgb(227, 227, 200);
+    font-size: 1.3em;
+}
+
+
+.Sec-Down-Bar > .FB-And-Whatsapp > .Whatsapp > .W-Icon i {
+    margin-right: 20px;
+    color: rgb(227, 227, 200);
+    font-size: 1.3em;
+}
+
+
+.Down-Bar > .Left-Column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.Down-Bar> .Middle-Column {
+    margin-right: 120px;
+}
+.Down-Bar> .Middle-Column > .Para a {
+    color: rgb(35, 15, 194);
+}
+.Down-Bar> .Middle-Column > .Para li{
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23808"><path d="M12 23a1 1 0 0 1-.78-.38l-8-10c-.29-.37-.29-.88 0-1.25l8-9.99c.38-.47 1.18-.47 1.56 0l8 10c.29.37.29.88 0 1.25l-8 10a1 1 0 0 1-.78.38ZM5.28 12 12 20.4l6.72-8.4L12 3.6 5.28 12Z"></path></svg>');
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.Down-Bar > .Right-Column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+    margin-bottom: 15px;
+}
+.Down-Bar > .Right-Column > .Para > .One {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 1em;
+    color: rgb(35, 15, 194);
+}
+.Down-Bar > .Right-Column > .Para > .Two {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 1em;
+    color: rgb(35, 15, 194);
+}
+.Down-Bar > .Right-Column > .Para > .Three {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 1em;
+    color: rgb(35, 15, 194);
+}
+.Down-Bar > .Right-Column > .Para {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.Down-Bar > .Middle-Column > .Para ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    text-decoration: none;
+    list-style-type: circle;
+}
+.Down-Bar > .Left-Column > .Para {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.Nav-Bar-Wrapper> .Middle-Column > .Links_Wrappers > .Nav_Link {
+    width: 170px;
+    text-align: center;
+}
+.Nav-Bar-Wrapper> .Middle-Column > .Links_Wrappers > .Nav_Link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: blue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.Nav-Bar-Wrapper> .Middle-Column > .Links_Wrappers > .Nav_Link a:hover {
+    color: royalblue;
+    letter-spacing: 1px;
+}
